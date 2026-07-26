@@ -914,7 +914,7 @@ def report_html(x, results, score, metrics):
 st.sidebar.title("🏠 Property inputs")
 
 with st.sidebar:
-    property_name = st.text_input("Property name or address", "Example investment property")
+    property_name = st.text_input("Property name or address", "Assessment of the specified investment property")
     property_type = st.selectbox("Property type",
         ["House", "Apartment / Unit", "Townhouse", "Villa", "Duplex", "Terrace", "Vacant Land", "Other"])
     default_strata = property_type in {"Apartment / Unit", "Townhouse", "Villa"}
