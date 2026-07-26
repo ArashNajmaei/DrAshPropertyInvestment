@@ -258,7 +258,7 @@ gross_yield=weekly_rent*52/purchase_price if purchase_price else 0
 net_yield=c["Net Operating Income"]/purchase_price if purchase_price else 0
 after_short=max(0,-c["After-tax Cash Flow"]); pre_short=max(0,-c["Pre-tax Cash Flow"])
 
-st.title("Property Investment Decision Dashboard")
+st.title("All-in-One Property Investment Decision Dashboard By Dr Arash")
 st.caption("Interactive purchase, loan, rental, cash-flow, tax-effect, growth and stress-test modelling.")
 t1,t2,t3,t4,t5,t6=st.tabs(["Executive dashboard","Purchase & loan","Cash flow","Growth & equity","Stress testing","Export"])
 
