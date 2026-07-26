@@ -1101,7 +1101,7 @@ pre_tax_shortfall = max(
 score, score_breakdown = investment_score(inputs, results)
 
 
-st.title("Property Investment Decision Dashboard by Dr Ash Najmaei")
+st.title("All-In-One Property Investment Decision Dashboard by Dr Ash Najmaei")
 st.caption(
     "Interactive purchase, loan, rental, cash-flow, tax-effect, "
     "growth and stress-test modelling."
